@@ -1,0 +1,19 @@
+.input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.input-field {
+    padding-right: 30px; /* Расстояние от иконки до текста */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 30px;
+    width: 100%;
+}
+
+.icon {
+    position: absolute;
+    right: 10px; /* Расстояние от правого края */
+    color: #999;
+}
