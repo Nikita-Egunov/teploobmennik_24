@@ -20,7 +20,16 @@ body {
 
 .email__conteiner {}
 
-.email__conteiner--haeder {}
+.email__conteiner--haeder {
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: lowercase;
+
+    color: #1A9FFF;
+}
 
 .email {}
 
@@ -28,13 +37,18 @@ body {
 
 .email__icon {}
 
-.email__icon--header {}
+.email__icon--header {
+    display: none;
+}
 
 .phone__conteiner {
     display: flex;
+    align-items: center;
 }
 
 .phone__icon {
+    margin-right: 7px;
+
     max-width: 18px;
     max-height: 18px;
 }
@@ -43,7 +57,20 @@ body {
 
 .phone__number {}
 
-.phone__number--header {}
+.phone__number--header {
+
+
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+
+    color: #1A9FFF;
+
+
+}
 
 .messegers__header {
     margin-right: 31px;
@@ -107,5 +134,824 @@ body {
 }
 
 .conteiner__bottom {
+    display: flex;
+    justify-content: space-between;
+
     background-color: #FFFFFF;
+}
+
+.conteiner__logo {
+    max-width: 334px;
+    max-height: 34px;
+}
+
+
+
+.conteiner__logo--header {
+    display: inline;
+    margin-left: 41px;
+    margin-bottom: 24px;
+    margin-top: 24px;
+}
+
+.logo__header {
+    max-width: 334px;
+    max-height: 34px;
+}
+
+.navBar {
+    display: inline-block;
+    align-self: center;
+}
+
+.navBar__list {
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+    gap: 28px;
+}
+
+.navBar__list--item {}
+
+.navBar__list--link {}
+
+.conteiner__cart {
+    display: flex;
+    margin-right: 32px;
+}
+
+
+.cart__icon--link {}
+
+.cart__icon {
+    margin-right: 2px;
+}
+
+.conteiner__ItemsNumber {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 18px;
+    height: 18px;
+
+    border-radius: 50%;
+
+    background: #1A9FFF;
+    color: #FFFFFF;
+
+
+    font-family: 'Pragmatica';
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.swiper {
+    width: 100%;
+    max-height: 484px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+:root {
+    --swiper-theme-color: #FFFFFF
+}
+
+.infoBar__icon {
+    width: 64px;
+    height: 64px;
+}
+
+.conteiner__iformBar {
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 1280px;
+    max-height: 122px;
+
+    background-color: #1A9FFF;
+}
+
+.conteiner__iformBar--item {
+    display: flex;
+    align-items: center;
+
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 130%;
+
+    color: #FFFFFF;
+
+    padding: 19px 40px 21px 40px;
+}
+
+.infoBar__icon {
+    margin-right: 18px;
+}
+
+.infoBar__text {}
+
+.popularCategories__title {
+    margin: 34px auto 37px auto;
+
+    max-width: 460px;
+    max-height: 38px;
+
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    /* identical to box height */
+    text-align: center;
+
+    color: #3F3F3F;
+}
+
+.conteiner__popularCategories {}
+
+.conteiner__popularCategories--inner {
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.conteiner__popularCategories--item {
+    flex: 1 1 33.33%;
+    /* Равномерно распределяет элементы по трем колонкам */
+    box-sizing: border-box;
+    padding: 16px;
+    background-color: white;
+    border: 1px solid #EFEFEF;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    max-width: 400px;
+    max-height: 226px;
+}
+
+.conteiner__popularCategories--item:hover {
+    max-width: 400px;
+    max-height: 226px;
+
+
+    background: #FFFFFF;
+    border: 1px solid #EFEFEF;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+}
+
+.conteiner__popularCategories--item:hover .popularCategories__text,
+.conteiner__popularCategories--item:hover {
+    color: #1A9FFF;
+}
+
+.productIcon {
+    max-width: 96px;
+    max-height: 92px;
+}
+
+.popularCategories__text {
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #333333;
+}
+
+.numberOfProducts {
+
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+
+    color: #B6B5B5;
+
+
+}
+
+.allCategories__link {
+    display: flex;
+    justify-content: center;
+
+    margin: 31px auto 33px auto;
+
+    max-width: 168px;
+    max-height: 40px;
+
+    background-color: #1A9FFF;
+
+}
+
+.allCategories__link--text {
+    padding: 13px 17px 13px 18px;
+
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.conteinerManufacturers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: #F2F2F2;
+}
+
+.conteinerManufacturers__title {
+    margin: 33px auto 46px auto;
+
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+
+    text-align: center;
+
+    color: #3F3F3F;
+
+}
+
+.conteinerManufacturers__img {
+    max-width: 1029px;
+    max-height: 192px;
+
+    margin: 0 auto 49px auto;
+}
+
+.selectionHelp__conteiner {
+    display: flex;
+
+    background-image: url(../imges/selectionHelp-backgraund.svg);
+
+    max-width: 1280px;
+    height: 420px;
+}
+
+.selectionHelp__conteiner--backgraund {}
+
+.first__conteiner {
+    padding-left: 40px;
+    padding-top: 71px;
+}
+
+.selectionHelp__title {
+    padding-bottom: 14px;
+
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 110%;
+
+    color: #FFFFFF;
+}
+
+.selectionHelp__text {
+    padding-bottom: 38px;
+
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    /* or 144% */
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.selectionHelpConteiner__link {
+    display: flex;
+    justify-content: space-between;
+}
+
+.selectionHelp__link--1 {
+
+    border: #FFFFFF solid 1px;
+
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    padding: 13px 5px 5px 3px;
+}
+
+.selectionHelp__link--2 {
+    justify-self: center;
+    align-self: center;
+
+    padding: 5px 7px 13px 5px;
+
+
+    border: #FFFFFF solid 1px;
+
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    padding: 13px 5px 5px 3px;
+}
+
+.selectionHelp__link--3 {
+    justify-self: center;
+    align-self: center;
+
+    max-width: 182px;
+    height: 40px;
+
+    padding: 5px 6px 0px 4px;
+
+    border: #FFFFFF solid 1px;
+
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.second__conteinerConection {
+    margin-left: 59px;
+    margin-top: 66px;
+
+    border-left: #FFFFFF solid 1px;
+
+    max-height: 264px;
+}
+
+.second__conteinerConection--inner {
+    padding-left: 66px;
+    padding-top: 33px;
+}
+
+.second__conteinerConectionTitle {
+    padding-bottom: 20px;
+
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+
+    color: #FFFFFF;
+}
+
+.phone__conteinerConection {
+    display: flex;
+
+    margin-bottom: 22px;
+}
+
+.phone__conteinerConection--icon {}
+
+.phone__conteinerConection--text {
+    margin-left: 15px;
+}
+
+.phone {
+
+
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: lowercase;
+
+    color: #FFFFFF;
+}
+
+.schedule {
+
+
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: lowercase;
+
+    color: #FFFFFF;
+
+
+}
+
+.email__conteinerConection {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 30px;
+}
+
+.email__icon--white {}
+
+.email--conection {
+    display: flex;
+    margin-left: 14px;
+
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: lowercase;
+
+    color: #FFFFFF;
+}
+
+.address__conteiner {
+    display: flex;
+    align-items: center;
+}
+
+.address__img {}
+
+.address__conteinerText {
+    margin-left: 14px;
+
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: lowercase;
+
+    color: #FFFFFF;
+}
+
+.conteiner__schemeOrder {
+    background-color: #EEEEEE;
+}
+
+.conteiner__schemeOrders--title {
+    padding-top: 33px;
+    margin: 0 auto 0 auto;
+
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    /* identical to box height */
+    text-align: center;
+
+    color: #3F3F3F;
+}
+
+.conteiner__schemeOrders {
+    padding-top: 38px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+    padding: 38px 40px 52px 40px;
+
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 1280px;
+    max-height: 331px;
+}
+
+.conteiner__schemeOrders--inner {}
+
+.conteiner__schemeOrdersInner--img {}
+
+.conteiner__schemeOrdersInner--text {
+    padding-top: 11px;
+
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 130%;
+    /* or 18px */
+
+    color: #333333;
+}
+
+.conteiner__map {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 46px;
+}
+
+.conteinerMap__inner {
+    margin-right: 21px;
+    background-color: #1A9FFF;
+
+    border-radius: 12px;
+
+    max-width: 589.2px;
+    max-height: 542px;
+
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+
+    color: #FFFFFF;
+}
+
+.conteinerMap__inner--img {
+    max-width: 517px;
+    max-height: 276px;
+
+    margin: 6px 35px 39px 37px;
+}
+
+.conteinerMap__title {
+    padding: 31px 50px 32px 38px;
+
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+
+    color: #FFFFFF;
+}
+
+.conteinerMap__list {
+    padding: 0px 50px 25px 50px;
+}
+
+.conteinerMap__list--inner {
+    list-style: disc;
+
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+}
+
+.footer {
+    background-color: #333333;
+    max-width: auto;
+    max-height: 167px;
+
+    margin-top: 84px;
+}
+
+.conteiner__footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.conteinerFirst__inner--footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteinerFirst__inner--item {
+    padding: 30px 0px 1px 40px;
+}
+
+.footer__logo {}
+
+.messegers__conteiner--footer {
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 98px;
+
+    padding-top: 14px;
+}
+
+.messegers__link {}
+
+.telegram__footer--icon {}
+
+.whatsapp__footer--icon {}
+
+.footer__conteiner--links {
+    padding: 32px 0px 37px 0px;
+}
+
+.footer__conteinerLinks--list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.footer__conteinerLinks--item {
+
+
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.footer__conteiner--link {}
+
+.contacts {
+    padding: 33px 0px 33px 0px;
+}
+
+.phone__conteiner--footer {
+    display: flex;
+    align-items: center;
+
+    padding-bottom: 23px;
+}
+
+.phone__icon {}
+
+.phone__icon--footer {
+    margin-right: 19px;
+}
+
+.phone__number {}
+
+.phone__number--footer {
+
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    text-transform: lowercase;
+
+    color: #FFFFFF;
+}
+
+.email__conteiner {}
+
+.email__conteiner--footer {}
+
+.email__icon {}
+
+.email__icon--footer {
+    margin-right: 19px;
+}
+
+.email {}
+
+.email--footer {
+
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    text-transform: lowercase;
+
+    color: #FFFFFF;
+
+
+}
+
+.footer__conteiner-info {
+    padding: 35px 57px 26px 0px;
+}
+
+.address__conteiner--footer {
+    display: flex;
+    align-items: center;
+
+    padding-bottom: 14px;
+}
+
+.address__conteiner--icon {
+    margin-right: 20px;
+}
+
+.address__conteiner--text {
+
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #FFFFFF;
+
+
+}
+
+.address__text {}
+
+.privacyPolicy__conteiner {
+    display: flex;
+    align-items: center;
+}
+
+.privacyPolicy__conteiner--icon {
+    margin-right: 15px;
+}
+
+.privacyPolicy__conteiner--text {
+
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    /* identical to box height */
+    text-transform: uppercase;
+
+    color: #B6B5B5;
+
+
+}
+
+.conteinerSecond__inner--footer {
+    display: flex;
+    justify-content: end;
+
+    border-top: #999999 1px solid;
+    margin: 0px 40px 0px 40px;
+    max-width: 1200px;
+}
+
+.line--footer {}
+
+.conteinerSecond__inner--text1 {
+    margin: 15px 0px 13px auto;
+
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    text-align: center;
+    text-transform: lowercase;
+
+    color: #B6B5B5;
+
+
+}
+
+.conteinerSecond__inner--text2 {
+
+
+    margin: 11px 69px 15px auto;
+
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 9px;
+
+    color: #B6B5B5;
 }

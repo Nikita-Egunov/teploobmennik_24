@@ -1,16 +1,20 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="ru">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>teploobmennik24</title>
+    <link rel="stylesheet" href="./assets/fonts/css/stylesheet.css">
     <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap"
         rel="stylesheet">
+
+
 </head>
 
 <body>
@@ -18,8 +22,8 @@
         <div class="conteiner">
             <div class="conteiner__top">
                 <div class="email__conteiner item email__conteiner--haeder">
-                    <a class="email email--haeder" href="#">info@teploobmennik24.ru</a>
                     <img class="email__icon email__icon--header" src="./assets/imges/email-icon.svg">
+                    <a class="email email--haeder" href="#">info@teploobmennik24.ru</a>
                 </div>
                 <div class="phone__conteiner item">
                     <img class="phone__icon phone__icon--header" src="./assets/imges/telephone-icon.svg">
@@ -40,11 +44,318 @@
                     </div>
                 </div>
             </div>
-            <div class="conteiner__bottom"></div>
+<!--
+
+            <div class="conteiner__bottom">
+                <div class="conteiner__logo--header">
+                    <img class="logo__header" src="./assets/imges/logo.svg">
+                </div>
+                <nav class="navBar">
+                    <ul class="navBar__list">
+                        <li class="navBar__list--item"><a class="navBar__list--link" href="#">Каталог</a></li>
+                        <li class="navBar__list--item"><a class="navBar__list--link" href="#">О компании</a></li>
+                        <li class="navBar__list--item"><a class="navBar__list--link" href="#">Блог</a></li>
+                        <li class="navBar__list--item"><a class="navBar__list--link" href="#">Новости</a></li>
+                        <li class="navBar__list--item"><a class="navBar__list--link" href="#">Доставка</a></li>
+                        <li class="navBar__list--item"><a class="navBar__list--link" href="#">Контакты</a></li>
+                        <li class="navBar__list--item">
+                            <div class="conteiner__cart">
+                                <a class="cart__icon--link" href="#">
+                                    <img class="cart__icon" src="./assets/imges/cart-icon.svg">
+                                </a>
+                                <div class="conteiner__ItemsNumber" id="itemsNumber">
+                                    <p>0</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
 
-    <script src="./assets/js/"></script>
+    <main class="main">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="./assets/imges/slide1.svg"></div>
+                <div class="swiper-slide"><img src="./assets/imges/Banner-slider-2.svg"></div>
+                <div class="swiper-slide"><img src="./assets/imges/Banner-slider-3.svg"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="conteiner__iformBar">
+            <div class="conteiner__iformBar--item">
+                <img class="infoBar__icon" src="./assets/imges/infoIcon1.svg">
+                <p class="infoBar__text">Доставляем по России,<br>
+                    Казахстану и другим<br>
+                    странам СНГ от 3 дней</p>
+            </div>
+            <div class="conteiner__iformBar--item">
+                <img class="infoBar__icon" src="./assets/imges/infoIcon2.svg">
+                <p class="infoBar__text">Даем дилерские цены<br>
+                    завода на 30% ниже<br>
+                    рыночных</p>
+            </div>
+            <div class="conteiner__iformBar--item">
+                <img class="infoBar__icon" src="./assets/imges/infoIcon3.svg">
+                <p class="infoBar__text">Подписываем<br>
+                    официальный договор<br>
+                    – гарантия до 3 лет</p>
+            </div>
+            <div class="conteiner__iformBar--item">
+                <img class="infoBar__icon" src="./assets/imges/infoIcon4.svg">
+                <p class="infoBar__text">Собственное<br>
+                    производство<br>
+                    пластинчатых<br>
+                    теплообменников</p>
+            </div>
+        </div>
+        <div class="conteiner">
+            <h1 class="popularCategories__title">Популярные категории</h1>
+            <div class="conteiner__popularCategories">
+                <div class="conteiner__popularCategories--inner">
+                    <a class="conteiner__popularCategories--item">
+                        <img class="productIcon" src="./assets/imges/productIcon1.svg">
+                        <p class="popularCategories__text">Разборные теплообменники</p>
+                        <p class="numberOfProducts">1651 товар</p>
+                    </a>
+                    <a class="conteiner__popularCategories--item">
+                        <img class="productIcon" src="./assets/imges/productIcon2.svg">
+                        <p class="popularCategories__text">Разборные теплообменники</p>
+                        <p class="numberOfProducts">1651 товар</p>
+                    </a>
+                    <a class="conteiner__popularCategories--item">
+                        <img class="productIcon" src="./assets/imges/productIcon3.svg">
+                        <p class="popularCategories__text">Разборные теплообменники</p>
+                        <p class="numberOfProducts">1651 товар></p>
+                    </a>
+                    <a class="conteiner__popularCategories--item">
+                        <img class="productIcon" src="./assets/imges/productIcon4.svg">
+                        <p class="popularCategories__text">Разборные теплообменники</p>
+                        <p class="numberOfProducts">1651 товар</p>
+                    </a>
+                    <a class="conteiner__popularCategories--item">
+                        <img class="productIcon" src="./assets/imges/productIcon5.svg">
+                        <p class="popularCategories__text">Разборные теплообменники</p>
+                        <p class="numberOfProducts">1651 товар</p>
+                    </a>
+                    <a class="conteiner__popularCategories--item">
+                        <img class="productIcon" src="./assets/imges/productIcon6.svg">
+                        <p class="popularCategories__text">Разборные теплообменники</p>
+                        <p class="numberOfProducts">1651 товар</p>
+                    </a>
+                </div>
+                <a class="allCategories__link">
+                    <p class="allCategories__link--text">все категории</p>
+                </a>
+            </div>
+        </div>
+        <div class="conteiner">
+            <div class="conteinerManufacturers">
+                <h1 class="conteinerManufacturers__title">Производители</h1>
+                <img class="conteinerManufacturers__img" src="./assets/imges/logos-Manufacturers.svg">
+            </div>
+        </div>
+        <div class="conteiner">
+            <div class="selectionHelp__conteiner">
+                <div class="first__conteiner">
+                    <h1 class="selectionHelp__title">Нужна помощь <br>
+                        в подборе оборудования?</h1>
+                    <p class="selectionHelp__text">ОСТАВЬТЕ ЗАЯВКУ, МЫ ПОМОЖЕМ РАЗОБРАТЬСЯ<br>
+                        Инженер-консультант свяжется с вами в течение 15 минут</p>
+                    <div class="selectionHelpConteiner__link">
+                        <a class="selectionHelp__link--1">мы вам позвоним</a>
+                        <a class="selectionHelp__link--2">рассчитать теплоообменник по<br>
+                            вашим параметрам</a>
+                        <a class="selectionHelp__link--3">у вас есть шильдик<br>
+                            или готовый расчет?</a>
+                    </div>
+                </div>
+                <div class="second__conteinerConection">
+                    <div class="second__conteinerConection--inner">
+                        <h3 class="second__conteinerConectionTitle">Свяжитесь с нами</h3>
+                        <div class="phone__conteinerConection">
+                            <img class="phone__conteinerConection--icon" src="./assets/imges/phone-icon-white.svg">
+                            <div class="phone__conteinerConection--text">
+                                <p class="phone">+7 495 822-08-88</p>
+                                <p class="schedule">Пн.–Пт.: с 9:00 до 18:00</p>
+                            </div>
+                        </div>
+                        <div class="email__conteinerConection">
+                            <img class="email__icon--white" src="./assets/imges/email-icon-white.svg">
+                            <p class="email--conection">info@teploobmennik24.ru</p>
+                        </div>
+                        <div class="address__conteiner">
+                            <img class="address__img" src="./assets/imges/addres-icon-white.svg">
+                            <p class="address__conteinerText">г. Москва, Адрес</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="conteiner">
+            <div class="conteiner__schemeOrder">
+                <h1 class="conteiner__schemeOrders--title">Схема заказа</h1>
+                <div class="conteiner__schemeOrders">
+                    <div class="conteiner__schemeOrders--inner">
+                        <img class="conteiner__schemeOrdersInner--img" src="./assets/imges/schemeOrders-icon.svg">
+                        <p class="conteiner__schemeOrdersInner--text">Заявка<br>
+                            Оставьте заявку на<br>
+                            сайте, инженер-<br>
+                            консультант свяжется с<br>
+                            вами, чтобы обсудить<br>
+                            детали</p>
+                    </div>
+                    <div class="conteiner__schemeOrders--inner">
+                        <img class="conteiner__schemeOrdersInner--img" src="./assets/imges/schemeOrders-icon2.svg">
+                        <p class="conteiner__schemeOrdersInner--text">Расчет<br>
+                            Рассчитаем стоимость<br>
+                            теплообменного<br>
+                            оборудования/услуг</p>
+                    </div>
+                    <div class="conteiner__schemeOrders--inner">
+                        <img class="conteiner__schemeOrdersInner--img" src="./assets/imges/schemeOrders-icon3.svg">
+                        <p class="conteiner__schemeOrdersInner--text">Оплата<br>
+                            Вы оплатите товары<br>
+                            или работу:<br>
+                            - на расчетный счет<br>
+                            - банковской картой
+                             </p>
+                    </div>
+                    <div class="conteiner__schemeOrders--inner">
+                        <img class="conteiner__schemeOrdersInner--img" src="./assets/imges/schemeOrders-icon4.svg">
+                        <p class="conteiner__schemeOrdersInner--text">Изготовление<br>
+                            Изготовим оборудование<br>
+                            или проведем<br>
+                            проектирование<br>
+                            теплового пункта</p>
+                    </div>
+                    <div class="conteiner__schemeOrders--inner">
+                        <img class="conteiner__schemeOrdersInner--img" src="./assets/imges/schemeOrders-icon5.svg">
+                        <p class="conteiner__schemeOrdersInner--text">Доставка<br>
+                            Доставим оборудование <br>
+                            и предоставим все<br>
+                            документы</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="conteiner">
+            <div class="conteiner__map">
+                <div class="conteinerMap__inner ">
+                    <h3 class="conteinerMap__title">Теплообменное оборудование <br>
+                        с доставкой по всей России и СНГ</h3>
+                    <ul class="conteinerMap__list">
+                        <li class="conteinerMap__list--inner">Работаем с заказчиками во всех регионах России и<br>
+                            странах ЕАЭС. В нашей географии поставок Москва,<br>
+                            Санкт-Петербург, Екатеринбург, Астана—всего более 210<br>
+                            городов.
+                        </li>
+                        <li class="conteinerMap__list--inner">
+                            Организуем доставку оборудования транспортной<br>
+                            компанией ПЭК, «Деловые линии», DPD,<br>
+                            «ЖелДорЭкспедиция» или любой другой по вашему<br>
+                            выбору.
+                        </li>
+                        <li class="conteinerMap__list--inner">
+                            Доставим теплообменник до терминала транспортной<br>
+                            компании в вашем городе или «до двери» к месту<br>
+                            монтажа.
+                        </li>
+                        <li class="conteinerMap__list--inner">
+                            Поможем организовать логистику<br>
+                            с наилучшим балансом стоимости <br>
+                            и сроков доставки в ваш город.
+                        </li>
+                    </ul>
+                </div>
+                <div class="conteinerMap__inner">
+                    <div class="second__conteinerConection--inner">
+                        <h3 class="second__conteinerConectionTitle">Свяжитесь с нами</h3>
+                        <div class="phone__conteinerConection">
+                            <img class="phone__conteinerConection--icon" src="./assets/imges/phone-icon-white.svg">
+                            <div class="phone__conteinerConection--text">
+                                <p class="phone">+7 495 822-08-88</p>
+                                <p class="schedule">Пн.–Пт.: с 9:00 до 18:00</p>
+                            </div>
+                        </div>
+                        <div class="email__conteinerConection">
+                            <img class="email__icon--white" src="./assets/imges/email-icon-white.svg">
+                            <p class="email--conection">info@teploobmennik24.ru</p>
+                        </div>
+                        <div class="address__conteiner">
+                            <img class="address__img" src="./assets/imges/addres-icon-white.svg">
+                            <p class="address__conteinerText">г. Москва, Адрес</p>
+                        </div>
+                    </div>
+                    <img class="conteinerMap__inner--img" src="./assets/imges/conteinerMap__inner--img.svg">
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="conteiner">
+            <div class="conteiner__footer">
+                <div class="conteinerFirst__inner--footer">
+                    <div class="conteinerFirst__inner--item">
+                        <img class="footer__logo" src="./assets/imges/Logo-footer.svg">
+                        <div class="messegers__conteiner--footer">
+                            <a class="messegers__link">
+                                <img class="telegram__footer--icon" src="./assets/imges/telegram__footer--icon.svg">
+                            </a>
+                            <a class="messegers__link">
+                                <img class="whatsapp__footer--icon" src="./assets/imges/whatsapp__footer--icon.svg">
+                            </a>
+                        </div>
+                    </div>
+                    <nav class="footer__conteiner--links">
+                        <ul class="footer__conteinerLinks--list">
+                            <li class="footer__conteinerLinks--item"><a class="footer__conteiner--link" href="#">КАТАЛОГ</a></li>
+                            <li class="footer__conteinerLinks--item"><a class="footer__conteiner--link" href="#">О компании</a>
+                            </li>
+                            <li class="footer__conteinerLinks--item"><a class="footer__conteiner--link" href="#">Доставка</a>
+                            </li>
+                            <li class="footer__conteinerLinks--item"><a class="footer__conteiner--link" href="#">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="contacts">
+                        <div class="phone__conteiner--footer">
+                            <img class="phone__icon phone__icon--footer" src="./assets/imges/telephone-icon.svg">
+                            <p class="phone__number phone__number--footer">+7 495 822-08-88</p>
+                        </div>
+                        <div class="email__conteiner email__conteiner--footer">
+                            <img class="email__icon email__icon--footer" src="./assets/imges/email-icon.svg">
+                            <a class="email email--footer" href="#">info@teploobmennik24.ru</a>
+                        </div>
+                    </div>
+                    <div class="footer__conteiner-info">
+                        <div class="address__conteiner--footer">
+                            <img class="address__conteiner--icon" src="./assets/imges/addres-icon-footer.svg">
+                            <div class="address__conteiner--text">
+                                <a href="#" class="address__text">г. Москва, Нововладыкинский<br>
+                                    проезд д.8</a>
+                            </div>
+                        </div>
+                        <div class="privacyPolicy__conteiner">
+                            <img class="privacyPolicy__conteiner--icon" src="./assets/imges/privacyPolicy__conteiner--icon.svg">
+                            <a href="#" class="privacyPolicy__conteiner--text">Политика конфиденциальности</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="conteinerSecond__inner--footer">
+                    <p class="conteinerSecond__inner--text1">2024 © теплообменники24 — интернет-магазин</p>
+                    <p class="conteinerSecond__inner--text2">Информация на сайте teploobmennik24.ru
+                        <br>не является публичной офертой
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer> -->
+
+    <script src="./assets/js/main.js"></script>
+    <script src="./node_modules/swiper/swiper-bundle.min.js"></script>
 </body>
 
-</html>
+</html> 
