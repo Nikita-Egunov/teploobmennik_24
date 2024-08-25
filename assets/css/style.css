@@ -18,20 +18,24 @@ body {
     display: flex;
 }
 
+
 .email__conteiner {}
 
 .email__conteiner--haeder {
     font-family: 'Abhaya Libre';
     font-style: normal;
     font-weight: 700;
-    font-size: 18px;
-    line-height: 21px;
+    padding-top: 13px;
+    
+    font-size: clamp(0.313rem, 0.042rem + 1.354vw, 1.125rem);
+    line-height: clamp(0.313rem, -0.021rem + 1.667vw, 1.313rem);
     text-transform: lowercase;
 
     color: #1A9FFF;
 }
 
-.email {}
+.email {
+}
 
 .email--haeder {}
 
@@ -63,7 +67,7 @@ body {
     font-family: 'Abhaya Libre';
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
+    font-size: clamp(0.313rem, -0.083rem + 1.979vw, 1.5rem);
     line-height: 28px;
     text-transform: uppercase;
 
@@ -117,8 +121,8 @@ body {
     font-family: 'Abhaya Libre';
     font-style: normal;
     font-weight: 700;
-    font-size: 10px;
-    line-height: 12px;
+    font-size: clamp(0.313rem, 0.208rem + 0.521vw, 0.625rem);
+    line-height: clamp(0.313rem, 0.167rem + 0.729vw, 0.75rem);
 
     color: #1A9FFF;
 
@@ -136,7 +140,7 @@ body {
 .conteiner__bottom {
     display: flex;
     justify-content: space-between;
-
+    align-items: center;
     background-color: #FFFFFF;
 }
 
@@ -173,11 +177,23 @@ body {
 
 .navBar__list--item {}
 
-.navBar__list--link {}
+.navBar__list--link {
+
+
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(0.375rem, 0.125rem + 1.25vw, 1.125rem);
+    line-height: clamp(0.438rem, 0.146rem + 1.458vw, 1.313rem);
+    text-transform: uppercase;
+
+    color: #333333;
+}
 
 .conteiner__cart {
     display: flex;
     margin-right: 32px;
+    align-items: center;
 }
 
 
@@ -202,18 +218,20 @@ body {
 
 
     font-family: 'Pragmatica';
-    font-size: 12px;
-    line-height: 14px;
+    font-size: clamp(0.375rem, 0.25rem + 0.625vw, 0.75rem);
+    line-height: clamp(0.375rem, 0.208rem + 0.833vw, 0.875rem);
+    margin-top: 6px;
 }
 
 .swiper {
     width: 100%;
     max-height: 484px;
+    background-color: #1A9FFF;
 }
 
 .swiper-slide {
     text-align: center;
-    font-size: 18px;
+    font-size: clamp(0.375rem, 0.125rem + 1.25vw, 1.125rem);
     background: #fff;
     display: flex;
     justify-content: center;
@@ -253,7 +271,7 @@ body {
     font-family: 'Abhaya Libre';
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
+    font-size: clamp(0.438rem, 0.292rem + 0.729vw, 0.875rem);
     line-height: 130%;
 
     color: #FFFFFF;
@@ -265,7 +283,9 @@ body {
     margin-right: 18px;
 }
 
-.infoBar__text {}
+.infoBar__text {
+    font-size: clamp(0.438rem, 0.292rem + 0.729vw, 0.875rem);
+}
 
 .popularCategories__title {
     margin: 34px auto 37px auto;
@@ -276,8 +296,8 @@ body {
     font-family: 'Abhaya Libre';
     font-style: normal;
     font-weight: 700;
-    font-size: 32px;
-    line-height: 38px;
+    font-size: clamp(0.5rem, 0rem + 2.5vw, 2rem);
+    line-height: clamp(0.5rem, -0.125rem + 3.125vw, 2.375rem);
     /* identical to box height */
     text-align: center;
 
@@ -332,8 +352,8 @@ body {
     font-family: 'Abhaya Libre';
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: clamp(0.188rem, -0.083rem + 1.354vw, 1rem);
+    line-height: clamp(0.188rem, -0.146rem + 1.667vw, 1.188rem);
     text-align: center;
 
     color: #333333;
@@ -344,8 +364,8 @@ body {
     font-family: 'Abhaya Libre';
     font-style: normal;
     font-weight: 700;
-    font-size: 12px;
-    line-height: 14px;
+    font-size: clamp(0.188rem, 0rem + 0.938vw, 0.75rem);
+    line-height: clamp(0.188rem, -0.042rem + 1.146vw, 0.875rem);
     text-align: center;
 
     color: #B6B5B5;
@@ -372,8 +392,8 @@ body {
     font-family: 'Abhaya Libre';
     font-style: normal;
     font-weight: 700;
-    font-size: 12px;
-    line-height: 14px;
+    font-size: clamp(0.188rem, 0rem + 0.938vw, 0.75rem);
+    line-height: clamp(0.188rem, -0.042rem + 1.146vw, 0.875rem);
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -393,8 +413,8 @@ body {
     font-family: 'Abhaya Libre';
     font-style: normal;
     font-weight: 700;
-    font-size: 32px;
-    line-height: 38px;
+    font-size: clamp(0.188rem, -0.417rem + 3.021vw, 2rem);
+    line-height: clamp(0.188rem, -0.542rem + 3.646vw, 2.375rem);
 
     text-align: center;
 
@@ -431,7 +451,7 @@ body {
     font-family: 'Abhaya Libre';
     font-style: normal;
     font-weight: 700;
-    font-size: 52px;
+    font-size: clamp(0.188rem, -0.833rem + 5.104vw, 3.25rem);
     line-height: 110%;
 
     color: #FFFFFF;
@@ -443,8 +463,8 @@ body {
     font-family: 'Abhaya Libre';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 26px;
+    font-size: clamp(0.188rem, -0.125rem + 1.563vw, 1.125rem);
+    line-height: clamp(0.188rem, -0.292rem + 2.396vw, 1.625rem);
     /* or 144% */
     text-transform: uppercase;
 
@@ -463,8 +483,8 @@ body {
     font-family: 'Abhaya Libre';
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;
+    font-size: clamp(0.188rem, 0rem + 0.938vw, 0.75rem);
+    line-height: clamp(0.188rem, -0.042rem + 1.146vw, 0.875rem);
     text-align: center;
     text-transform: uppercase;
 
@@ -485,8 +505,8 @@ body {
     font-family: 'Abhaya Libre';
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;
+    font-size: clamp(0.188rem, 0rem + 0.938vw, 0.75rem);
+    line-height: clamp(0.188rem, -0.042rem + 1.146vw, 0.875rem);
     text-align: center;
     text-transform: uppercase;
 
@@ -509,8 +529,8 @@ body {
     font-family: 'Abhaya Libre';
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;
+    font-size: clamp(0.188rem, 0rem + 0.938vw, 0.75rem);
+    line-height: clamp(0.188rem, -0.042rem + 1.146vw, 0.875rem);
     text-align: center;
     text-transform: uppercase;
 
@@ -537,8 +557,8 @@ body {
     font-family: 'Abhaya Libre';
     font-style: normal;
     font-weight: 700;
-    font-size: 22px;
-    line-height: 26px;
+    font-size: clamp(0.188rem, -0.208rem + 1.979vw, 1.375rem);
+    line-height: clamp(0.188rem, -0.292rem + 2.396vw, 1.625rem);
 
     color: #FFFFFF;
 }
@@ -561,8 +581,8 @@ body {
     font-family: 'Abhaya Libre';
     font-style: normal;
     font-weight: 700;
-    font-size: 18px;
-    line-height: 21px;
+    font-size: clamp(0.188rem, -0.125rem + 1.563vw, 1.125rem);
+    line-height: clamp(0.188rem, -0.188rem + 1.875vw, 1.313rem);
     text-transform: lowercase;
 
     color: #FFFFFF;
@@ -574,8 +594,8 @@ body {
     font-family: 'Abhaya Libre';
     font-style: normal;
     font-weight: 700;
-    font-size: 12px;
-    line-height: 14px;
+    font-size: clamp(0.188rem, 0rem + 0.938vw, 0.75rem);
+    line-height: clamp(0.188rem, -0.042rem + 1.146vw, 0.875rem);
     text-transform: lowercase;
 
     color: #FFFFFF;
@@ -599,8 +619,8 @@ body {
     font-family: 'Abhaya Libre';
     font-style: normal;
     font-weight: 700;
-    font-size: 18px;
-    line-height: 21px;
+    font-size: clamp(0.188rem, -0.125rem + 1.563vw, 1.125rem);
+    line-height: clamp(0.188rem, -0.188rem + 1.875vw, 1.313rem);
     text-transform: lowercase;
 
     color: #FFFFFF;
@@ -619,8 +639,8 @@ body {
     font-family: 'Abhaya Libre';
     font-style: normal;
     font-weight: 700;
-    font-size: 18px;
-    line-height: 21px;
+    font-size: clamp(0.188rem, -0.125rem + 1.563vw, 1.125rem);
+    line-height: clamp(0.188rem, -0.188rem + 1.875vw, 1.313rem);
     text-transform: lowercase;
 
     color: #FFFFFF;
@@ -628,6 +648,7 @@ body {
 
 .conteiner__schemeOrder {
     background-color: #EEEEEE;
+    height: auto;
 }
 
 .conteiner__schemeOrders--title {
@@ -637,8 +658,8 @@ body {
     font-family: 'Abhaya Libre';
     font-style: normal;
     font-weight: 700;
-    font-size: 32px;
-    line-height: 38px;
+    font-size: clamp(0.188rem, -0.417rem + 3.021vw, 2rem);
+    line-height: clamp(0.188rem, -0.542rem + 3.646vw, 2.375rem);
     /* identical to box height */
     text-align: center;
 
@@ -657,11 +678,19 @@ body {
 
     max-width: 1280px;
     max-height: 331px;
+
 }
 
-.conteiner__schemeOrders--inner {}
+.conteiner__schemeOrders--inner {
+    
+    margin-left: 2vw;
+    margin-top: 10px;
+}
 
-.conteiner__schemeOrdersInner--img {}
+.conteiner__schemeOrdersInner--img {
+    margin-right: 4vw;
+    max-width: 60px;
+}
 
 .conteiner__schemeOrdersInner--text {
     padding-top: 11px;
@@ -669,7 +698,7 @@ body {
     font-family: 'Abhaya Libre';
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
+    font-size: clamp(0.5rem, 0.375rem + 0.625vw, 0.875rem);
     line-height: 130%;
     /* or 18px */
 
@@ -695,8 +724,8 @@ body {
     font-family: 'Abhaya Libre';
     font-style: normal;
     font-weight: 700;
-    font-size: 22px;
-    line-height: 26px;
+    font-size: clamp(0.5rem, 0.208rem + 1.458vw, 1.375rem);
+    line-height: clamp(0.5rem, 0.125rem + 1.875vw, 1.625rem);
 
     color: #FFFFFF;
 }
@@ -714,8 +743,8 @@ body {
     font-family: 'Abhaya Libre';
     font-style: normal;
     font-weight: 700;
-    font-size: 22px;
-    line-height: 26px;
+    font-size: clamp(0.5rem, 0.208rem + 1.458vw, 1.375rem);
+    line-height: clamp(0.5rem, 0.125rem + 1.875vw, 1.625rem);
 
     color: #FFFFFF;
 }
@@ -730,8 +759,8 @@ body {
     font-family: 'Abhaya Libre';
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: clamp(0.5rem, 0.333rem + 0.833vw, 1rem);
+    line-height: clamp(0.5rem, 0.271rem + 1.146vw, 1.188rem);
 
     color: #FFFFFF;
 }
@@ -752,10 +781,10 @@ body {
 .conteinerFirst__inner--footer {
     display: flex;
     justify-content: space-between;
+    padding: 30px 57px 1px 40px;
 }
 
 .conteinerFirst__inner--item {
-    padding: 30px 0px 1px 40px;
 }
 
 .footer__logo {}
@@ -776,7 +805,6 @@ body {
 .whatsapp__footer--icon {}
 
 .footer__conteiner--links {
-    padding: 32px 0px 37px 0px;
 }
 
 .footer__conteinerLinks--list {
@@ -791,9 +819,8 @@ body {
     font-family: 'Abhaya Libre';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    /* identical to box height */
+    font-size: clamp(0.5rem, 0.375rem + 0.625vw, 0.875rem);
+    line-height: clamp(0.5rem, 0.313rem + 0.938vw, 1.063rem);
     text-transform: uppercase;
 
     color: #FFFFFF;
@@ -802,7 +829,6 @@ body {
 .footer__conteiner--link {}
 
 .contacts {
-    padding: 33px 0px 33px 0px;
 }
 
 .phone__conteiner--footer {
@@ -825,8 +851,8 @@ body {
     font-family: 'Abhaya Libre';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
+    font-size: clamp(0.5rem, 0.375rem + 0.625vw, 0.875rem);
+    line-height: clamp(0.5rem, 0.313rem + 0.938vw, 1.063rem);
     /* identical to box height */
     text-transform: lowercase;
 
@@ -850,8 +876,8 @@ body {
     font-family: 'Abhaya Libre';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
+    font-size: clamp(0.5rem, 0.375rem + 0.625vw, 0.875rem);
+    line-height: clamp(0.5rem, 0.313rem + 0.938vw, 1.063rem);
     /* identical to box height */
     text-transform: lowercase;
 
@@ -861,7 +887,6 @@ body {
 }
 
 .footer__conteiner-info {
-    padding: 35px 57px 26px 0px;
 }
 
 .address__conteiner--footer {
@@ -880,8 +905,8 @@ body {
     font-family: 'Abhaya Libre';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
+    font-size: clamp(0.5rem, 0.375rem + 0.625vw, 0.875rem);
+    line-height: clamp(0.5rem, 0.313rem + 0.938vw, 1.063rem);
 
     color: #FFFFFF;
 
@@ -904,8 +929,8 @@ body {
     font-family: 'Abhaya Libre';
     font-style: normal;
     font-weight: 400;
-    font-size: 11px;
-    line-height: 13px;
+    font-size: clamp(0.5rem, 0.438rem + 0.313vw, 0.688rem);
+    line-height: clamp(0.5rem, 0.396rem + 0.521vw, 0.813rem);
     /* identical to box height */
     text-transform: uppercase;
 
@@ -931,8 +956,8 @@ body {
     font-family: 'Abhaya Libre';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
+    font-size: clamp(0.5rem, 0.375rem + 0.625vw, 0.875rem);
+    line-height: clamp(0.5rem, 0.313rem + 0.938vw, 1.063rem);
     /* identical to box height */
     text-align: center;
     text-transform: lowercase;
@@ -950,8 +975,199 @@ body {
     font-family: 'Abhaya Libre';
     font-style: normal;
     font-weight: 400;
-    font-size: 8px;
-    line-height: 9px;
+    font-size: clamp(0.5rem, 0.5rem + 0vw, 0.5rem);
+    line-height: clamp(0.5rem, 0.479rem + 0.104vw, 0.563rem);
 
     color: #B6B5B5;
+}
+
+.hamburger {
+    display: none;
+}
+
+@media (max-width: 1095px) {
+    .conteinerManufacturers {
+        display: none;
+    }
+
+    .hamburger {
+    display: block;   
+    margin: 24px 41px 24px auto;
+    z-index: 100;
+    padding: 4px;
+    border: black solid 1px;
+    background: white;
+    cursor: pointer;
+      }
+    
+      .closeIcon {
+        display: none;
+      }
+    
+      .menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        position: fixed;
+        transform: translateY(-100%);
+        transition: transform 0.2s;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 99;
+        background-color: white;
+        color: white;
+        list-style: none;
+        padding-top: 100px;
+      }
+      
+      .showMenu {
+        transform: translateY(0);
+      }
+
+      .conteiner__cart {
+        justify-content: space-between;
+        margin: 0 0 0 0;
+      }
+
+      .cart__icon {
+        margin-right: 20px;
+      }
+}
+
+@media (max-width: 930px) {
+    .conteiner__iformBar {
+        display: none;
+    }
+
+    .conteiner__map {
+        flex-direction: column;
+    }
+
+    .conteinerMap__inner {
+        margin-top: 20px;
+    }
+    .contacts {
+        display: none;
+    }
+}
+
+@media (max-width: 745px) {
+    .conteiner__top {
+        gap: 3vw;
+    }
+    .conteinerFirst__inner--footer {
+        padding: 2vw 2vw 1vw 3vw;
+    }
+
+    .input-container {
+        margin-right: 2vw;
+        margin-left: 2vw;
+    }
+    .messegers__header {
+        margin-right: 2vw;
+    }
+
+    .selectionHelpConteiner__link {
+        flex-direction: column;
+    }
+
+    .selectionHelp__link--2 {
+        margin-top: 10px;
+        width: 44vw;
+    }
+
+    a.selectionHelp__link--3 {
+        margin-top: 10px;
+        width: 44vw;
+        max-width:unset;
+    }
+
+    .footer__logo {
+        max-width: 25vw;
+    }
+}
+
+@media (max-width: 620px) {
+    .conteinerMap__inner--img {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .conteiner__schemeOrders {
+        display: flex;
+        flex-direction: column;
+        max-height: none;
+    }
+}
+
+@media (max-width: 560px) {
+    .second__conteinerConection--inner {
+        padding-left: 8vw;
+        padding-top: 8vw;
+        padding-bottom: 2vw;
+    }
+
+    .second__conteinerConection {
+        margin-left: 8vw;
+        margin-top: 8vw;
+    }
+
+    .messegers__conteiner--footer {
+        display: none;
+    }
+    .conteinerFirst__inner--item {
+        display: none;
+    }
+}
+
+@media (max-width: 520px) {
+    
+
+      .input-container {
+        display: none;
+      }
+}
+
+@media (max-width: 500px) {
+    .logo__header {
+        max-width: 185px;
+        max-height: 34px;
+    }
+    
+    .conteiner__logo--header {
+        margin-right: 45px;
+    }
+
+    .conteiner__logo--header {
+        display: inline;
+        margin-left: 20px;
+        margin-bottom: 24px;
+        margin-top: 0px;
+    }
+
+    .hamburger {
+        margin: 6px 41px 24px auto;
+    }
+}
+
+@media (max-width: 410px) {
+    .custom-br {
+        display: block;
+        content: "";
+      }
+    .conteinerSecond__inner--footer {
+        margin: 0px 5vw 0px 5vw;
+    }
+
+    .conteinerSecond__inner--text2 {
+        margin: 11px 0px 15px auto;
+    }
+}
+
+@media (max-width: 320px) {
+   
 }

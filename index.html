@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>teploobmennik24</title>
     <link rel="stylesheet" href="./assets/fonts/css/stylesheet.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -13,23 +14,25 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap"
         rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
 
 </head>
 
 <body>
     <header class="header">
         <div class="conteiner">
+            
             <div class="conteiner__top">
                 <div class="email__conteiner item email__conteiner--haeder">
                     <img class="email__icon email__icon--header" src="./assets/imges/email-icon.svg">
                     <a class="email email--haeder" href="#">info@teploobmennik24.ru</a>
                 </div>
-                <div class="phone__conteiner item">
+                <div class="phone__conteiner menuItem item">
                     <img class="phone__icon phone__icon--header" src="./assets/imges/telephone-icon.svg">
                     <p class="phone__number phone__number--header">+7 495 822-08-88</p>
                 </div>
-                <div class="conteiner__header">
+                <div class="conteiner__header menuItem">
                     <div class="messegers__header item">
                         <a class="vacap__header--link" href="#">
                             <img class="vacap__header" src="./assets/imges/whatsapp-icon.svg">
@@ -43,22 +46,30 @@
                         <img class="icon " src="./assets/imges/search-icon.svg">
                     </div>
                 </div>
-            </div>
-<!--
+            </div> 
+           
+            
+            
+
 
             <div class="conteiner__bottom">
                 <div class="conteiner__logo--header">
                     <img class="logo__header" src="./assets/imges/logo.svg">
                 </div>
+                <button class="hamburger">
+                    
+                    <i class="menuIcon material-icons">menu</i>
+                    <i class="closeIcon material-icons" style="display: none;">close</i>
+                  </button>
                 <nav class="navBar">
-                    <ul class="navBar__list">
-                        <li class="navBar__list--item"><a class="navBar__list--link" href="#">Каталог</a></li>
-                        <li class="navBar__list--item"><a class="navBar__list--link" href="#">О компании</a></li>
-                        <li class="navBar__list--item"><a class="navBar__list--link" href="#">Блог</a></li>
-                        <li class="navBar__list--item"><a class="navBar__list--link" href="#">Новости</a></li>
-                        <li class="navBar__list--item"><a class="navBar__list--link" href="#">Доставка</a></li>
-                        <li class="navBar__list--item"><a class="navBar__list--link" href="#">Контакты</a></li>
-                        <li class="navBar__list--item">
+                    <ul class="navBar__list menu">
+                        <li class="navBar__list--item menuItem"><a class="navBar__list--link" href="#">Каталог</a></li>
+                        <li class="navBar__list--item menuItem"><a class="navBar__list--link" href="#">О компании</a></li>
+                        <li class="navBar__list--item menuItem"><a class="navBar__list--link" href="#">Блог</a></li>
+                        <li class="navBar__list--item menuItem"><a class="navBar__list--link" href="#">Новости</a></li>
+                        <li class="navBar__list--item menuItem"><a class="navBar__list--link" href="#">Доставка</a></li>
+                        <li class="navBar__list--item menuItem"><a class="navBar__list--link" href="#">Контакты</a></li>
+                        <li class="navBar__list--item menuItem">
                             <div class="conteiner__cart">
                                 <a class="cart__icon--link" href="#">
                                     <img class="cart__icon" src="./assets/imges/cart-icon.svg">
@@ -83,6 +94,7 @@
             </div>
             <div class="swiper-pagination"></div>
         </div>
+
         <div class="conteiner__iformBar">
             <div class="conteiner__iformBar--item">
                 <img class="infoBar__icon" src="./assets/imges/infoIcon1.svg">
@@ -110,6 +122,7 @@
                     теплообменников</p>
             </div>
         </div>
+
         <div class="conteiner">
             <h1 class="popularCategories__title">Популярные категории</h1>
             <div class="conteiner__popularCategories">
@@ -150,6 +163,7 @@
                 </a>
             </div>
         </div>
+
         <div class="conteiner">
             <div class="conteinerManufacturers">
                 <h1 class="conteinerManufacturers__title">Производители</h1>
@@ -171,6 +185,7 @@
                             или готовый расчет?</a>
                     </div>
                 </div>
+
                 <div class="second__conteinerConection">
                     <div class="second__conteinerConection--inner">
                         <h3 class="second__conteinerConectionTitle">Свяжитесь с нами</h3>
@@ -240,6 +255,7 @@
                 </div>
             </div>
         </div>
+
         <div class="conteiner">
             <div class="conteiner__map">
                 <div class="conteinerMap__inner ">
@@ -293,6 +309,7 @@
             </div>
         </div>
     </main>
+
     <footer class="footer">
         <div class="conteiner">
             <div class="conteiner__footer">
@@ -339,8 +356,9 @@
                         </div>
                         <div class="privacyPolicy__conteiner">
                             <img class="privacyPolicy__conteiner--icon" src="./assets/imges/privacyPolicy__conteiner--icon.svg">
-                            <a href="#" class="privacyPolicy__conteiner--text">Политика конфиденциальности</a>
-
+                            <a href="#" class="privacyPolicy__conteiner--text">Политика
+                                <span class="custom-br"></span>
+                                конфиденциальности</a>
                         </div>
                     </div>
                 </div>
@@ -352,10 +370,11 @@
                 </div>
             </div>
         </div>
-    </footer> -->
+    </footer> 
 
     <script src="./assets/js/main.js"></script>
     <script src="./node_modules/swiper/swiper-bundle.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html> 
